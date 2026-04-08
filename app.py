@@ -23,7 +23,7 @@ PROFILE = {
         "Networks, Internet Infrastructure, and CDN Architectures. <br>"
         "Maintainer of <a href=\"https://leoscope.surrey.ac.uk\" style=\"text-decoration: underline;\">LEOScope</a>"
     ),
-    "tagline": "I study the internet architectur    e for now...",
+    "tagline": "I study the internet architecture for now...",
     "avatar": "/static/img/avatar.png",
 }
 

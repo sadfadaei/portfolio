@@ -2,9 +2,9 @@ from flask import Flask, render_template, send_from_directory
 
 from flask_frozen import Freezer
 
-freezer = Freezer(app)
 
 app = Flask(__name__)
+freezer = Freezer(app)
 app.jinja_env.globals['enumerate'] = enumerate
 
 # ── DATA ──────────────────────────────────────────────────────────────────────

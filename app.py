@@ -18,7 +18,7 @@ PROFILE = {
     "location": "Surrey, UK",
     "email": "saeed.fadaei1996@gmail.com",
     "linkedin": "https://linkedin.com/in/iamsaeedfadaei",
-    "github": "https://github.com/nyxaeed",
+    "github": "https://github.com/sadfadaei",
     "bio": (
         "PhD researcher at the University of Surrey specialising in LEO satellite "
         "Networks, Internet Infrastructure, and CDN Architectures. <br>"

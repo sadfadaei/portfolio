@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saeed Fadaei — PhD Researcher in Computer Science</title>
+  <meta name="description" content="PhD researcher at the University of Surrey specialising in LEO satellite Networks, Internet Infrastructure, and CDN Architectures. &lt;br&gt;Maintainer of &lt;a href=&#34;https://leoscope.surrey.ac.uk&#34; style=&#34;text-decoration: underline;&#34;&gt;LEOScope&lt;/a&gt;" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">SF</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ────────────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-text reveal">
+        <p class="hero-eyebrow">Hi, I'm</p>
+        <h1 class="hero-name">Saeed Fadaei</h1>
+        <p class="hero-role">PhD Researcher in Computer Science</p>
+        <p class="hero-tagline">I study the internet architecture for now...</p>
+        <p class="hero-bio">PhD researcher at the University of Surrey specialising in LEO satellite Networks, Internet Infrastructure, and CDN Architectures. <br>Maintainer of <a href="https://leoscope.surrey.ac.uk" style="text-decoration: underline;">LEOScope</a></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:saeed.fadaei1996@gmail.com" aria-label="Email" class="social-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+          <a href="https://linkedin.com/in/iamsaeedfadaei" target="_blank" aria-label="LinkedIn" class="social-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/nyxaeed" target="_blank" aria-label="GitHub" class="social-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="hero-avatar reveal reveal-delay">
+        <div class="avatar-ring">
+          <img src="/static/img/avatar.png" alt="Saeed Fadaei" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="avatar-fallback">SF</div>
+        </div>
+        <div class="hero-badges">
+          <div class="badge-chip">🏆 Best of CCR / SRC Nomination (SIGCOMM 2025)</div>
+          <div class="badge-chip">📡 Internet Measurement / Network Architecture </div>
+          <div class="badge-chip">👨🏻‍💻 Software Engineer, AI</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ─────────────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Research Projects</h2>
+      <p class="section-sub reveal">A selection of my recent work</p>
+      <div class="projects-grid">
+        
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-tags">
+              
+              <span class="tag">Satellite Networks</span>
+              
+              <span class="tag">Measurement</span>
+              
+              <span class="tag">Starlink</span>
+              
+            </div>
+            
+            <span class="project-badge">🏆 Best of CCR · ACM SIGCOMM 2025</span>
+            
+          </div>
+          <h3 class="project-title">LEOScope: Global LEO Testbed</h3>
+          <p class="project-summary">A scalable global testbed measuring network performance across LEO satellite providers — spanning from Northern Canada to Antarctica.</p>
+          <ul class="project-bullets">
+            
+            <li>Deployed probes from Northern Canada to McMurdo Station, Antarctica</li>
+            
+            <li>Long-term framework studying Geomagnetic Storms (Solar Cycle 25)</li>
+            
+            <li>Characterised TCP congestion control over ISL paths</li>
+            
+          </ul>
+          <div class="project-links">
+            
+            <span class="link-btn disabled">Paper</span>
+            
+            
+          </div>
+        </article>
+        
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-tags">
+              
+              <span class="tag">Measurement</span>
+              
+              <span class="tag">Solar Storms</span>
+              
+              <span class="tag">LEO/MEO/GEO</span>
+              
+            </div>
+            
+            <span class="project-badge">ACM SIGMETRICS 2026 — Accepted</span>
+            
+          </div>
+          <h3 class="project-title">Solar Storms &amp; Orbital Internet Resilience</h3>
+          <p class="project-summary">1.5 years of continuous measurement mapping the impact of extreme solar storms across all orbital regimes.</p>
+          <ul class="project-bullets">
+            
+            <li>Correlated Kp index &amp; X-ray flux with latency, loss, and throughput KPIs</li>
+            
+            <li>Compared Starlink, OneWeb, and GEO providers during X-class flares</li>
+            
+            <li>First large-scale empirical study of its kind</li>
+            
+          </ul>
+          <div class="project-links">
+            
+            <span class="link-btn disabled">Paper</span>
+            
+            
+          </div>
+        </article>
+        
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-tags">
+              
+              <span class="tag">CDN</span>
+              
+              <span class="tag">LEO</span>
+              
+              <span class="tag">Video Streaming</span>
+              
+            </div>
+            
+            <span class="project-badge">ACM HotNets 2024</span>
+            
+          </div>
+          <h3 class="project-title">CDN Architecture for LEO — VDC</h3>
+          <p class="project-summary">Virtual Delivery Constellations (VDC): novel CDN placement strategies optimised for LEO satellite constellation topology.</p>
+          <ul class="project-bullets">
+            
+            <li>Optimised PoP placement within Starlink-class constellations</li>
+            
+            <li>Power-aware satellite selection for content delivery</li>
+            
+            <li>Break-even analysis vs ground-based CDN</li>
+            
+          </ul>
+          <div class="project-links">
+            
+            <span class="link-btn disabled">Paper</span>
+            
+            
+          </div>
+        </article>
+        
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-tags">
+              
+              <span class="tag">Privacy</span>
+              
+              <span class="tag">ML</span>
+              
+              <span class="tag">Browser Extension</span>
+              
+            </div>
+            
+            <span class="project-badge">ASONAM 2025</span>
+            
+          </div>
+          <h3 class="project-title">Transition Guardian — Privacy Plugin</h3>
+          <p class="project-summary">On-device AI browser plugin that detects and blocks accidental sharing of sensitive self-disclosure data — zero external data leakage.</p>
+          <ul class="project-bullets">
+            
+            <li>Runs entirely on-device inside the browser</li>
+            
+            <li>Detects minority status indicators before form submission</li>
+            
+            <li>Targets users during high-risk life transitions</li>
+            
+          </ul>
+          <div class="project-links">
+            
+            <span class="link-btn disabled">Paper</span>
+            
+            
+          </div>
+        </article>
+        
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <div class="project-tags">
+              
+              <span class="tag">Video Streaming</span>
+              
+              <span class="tag">Optimisation</span>
+              
+              <span class="tag">CDN</span>
+              
+            </div>
+            
+            <span class="project-badge">ACM SIGMETRICS 2024</span>
+            
+          </div>
+          <h3 class="project-title">Shrinking VOD Traffic via Rényi-Entropic OT</h3>
+          <p class="project-summary">Optimal transport-based approach to reduce VOD traffic volume using Rényi entropy regularisation.</p>
+          <ul class="project-bullets">
+            
+            <li>Applied Rényi-entropic optimal transport to video chunk scheduling</li>
+            
+            <li>Significant reduction in redundant VOD traffic</li>
+            
+          </ul>
+          <div class="project-links">
+            
+            <span class="link-btn disabled">Paper</span>
+            
+            
+          </div>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ───────────────────────────────────────────────────── -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title reveal">Tech Stack</h2>
+      <p class="section-sub reveal">Tools and technologies I work with</p>
+      <div class="skills-grid">
+        
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-icon">💻</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-pills">
+            
+            <span class="skill-pill">Python</span>
+            
+            <span class="skill-pill">JavaScript</span>
+            
+            <span class="skill-pill">Bash</span>
+            
+            <span class="skill-pill">SQL</span>
+            
+            <span class="skill-pill">HTML/CSS</span>
+            
+            <span class="skill-pill">Go</span>
+            
+            <span class="skill-pill">C/C++</span>
+            
+          </div>
+        </div>
+        
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-icon">🧠</span>
+            <h3>ML &amp; Data</h3>
+          </div>
+          <div class="skill-pills">
+            
+            <span class="skill-pill">PyTorch</span>
+            
+            <span class="skill-pill">TensorFlow</span>
+            
+            <span class="skill-pill">OpenCV</span>
+            
+            <span class="skill-pill">Pandas</span>
+            
+            <span class="skill-pill">NumPy</span>
+            
+            <span class="skill-pill">scikit-learn</span>
+            
+          </div>
+        </div>
+        
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-icon">⚙️</span>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-pills">
+            
+            <span class="skill-pill">FastAPI</span>
+            
+            <span class="skill-pill">Django</span>
+            
+            <span class="skill-pill">Flask</span>
+            
+            <span class="skill-pill">Sanic</span>
+            
+            <span class="skill-pill">React</span>
+            
+          </div>
+        </div>
+        
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-icon">🐳</span>
+            <h3>DevOps &amp; Infra</h3>
+          </div>
+          <div class="skill-pills">
+            
+            <span class="skill-pill">Docker</span>
+            
+            <span class="skill-pill">Kubernetes</span>
+            
+            <span class="skill-pill">Ansible</span>
+            
+            <span class="skill-pill">Kafka</span>
+            
+            <span class="skill-pill">Redis</span>
+            
+            <span class="skill-pill">Git</span>
+            
+          </div>
+        </div>
+        
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-icon">🗄️</span>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-pills">
+            
+            <span class="skill-pill">PostgreSQL</span>
+            
+            <span class="skill-pill">MySQL</span>
+            
+            <span class="skill-pill">MongoDB</span>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ───────────────────────────────────────────────── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">Oct 2024 – Present</span>
+              <span class="current-badge">Current</span>
+            </div>
+            <h3 class="timeline-title">PhD Researcher</h3>
+            <p class="timeline-company">
+              
+              <a href="https://www.surrey.ac.uk/" target="_blank">University of Surrey</a>
+              
+              <span class="timeline-location">· Guildford, UK</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Investigating LEO satellite network measurement and solar storm impacts on orbital internet infrastructure.</li>
+              
+              <li>Built the LEOScope testbed — a global measurement network spanning Northern Canada to Antarctica.</li>
+              
+              <li>ACM SIGMETRICS 2026 paper accepted on 1.5 years of solar storm measurement data.</li>
+              
+              <li>🏆 Best of CCR — ACM SIGCOMM 2025.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot "></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">Dec 2023 – Oct 2024</span>
+              
+            </div>
+            <h3 class="timeline-title">AI Research Engineer</h3>
+            <p class="timeline-company">
+              
+              <a href="https://www.surrey.ac.uk/" target="_blank">University of Surrey</a>
+              
+              <span class="timeline-location">· Guildford, UK</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Developed LEOScope, a scalable global testbed for measuring LEO satellite network performance.</li>
+              
+              <li>Engineered Risk Playground (AP4L project) — a gamified privacy education tool.</li>
+              
+              <li>Developed Transition Guardian browser plugin; resulted in ASONAM 2025 publication.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot "></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">Aug 2022 – Dec 2023</span>
+              
+            </div>
+            <h3 class="timeline-title">Software Team Lead</h3>
+            <p class="timeline-company">
+              
+              Hezardastan Group (Karnameh)
+              
+              <span class="timeline-location">· Tehran, Iran</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Refactored feature-freeze system, quadrupling the user base.</li>
+              
+              <li>Implemented real-time car inspection offer system; reduced operation costs by 80% (5× efficiency gain).</li>
+              
+              <li>Built automated price-estimation bot used as an industry reference for car pricing.</li>
+              
+              <li>Developed notification system from scratch to improve company–user communication.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot "></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">May 2022 – Aug 2022</span>
+              
+            </div>
+            <h3 class="timeline-title">Software Backend Team Lead</h3>
+            <p class="timeline-company">
+              
+              Panco
+              
+              <span class="timeline-location">· Tehran, Iran</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Developed three new games driving a 3× increase in company revenue.</li>
+              
+              <li>Clustered the data layer, increasing system throughput by 4× and improving fault tolerance.</li>
+              
+              <li>Implemented a queue manager for seamless real-time user experience.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot "></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">May 2021 – May 2022</span>
+              
+            </div>
+            <h3 class="timeline-title">Software Engineer &amp; Blockchain Researcher</h3>
+            <p class="timeline-company">
+              
+              Nobitex (Cryptocurrency Exchange)
+              
+              <span class="timeline-location">· Tehran, Iran</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Implemented multi-layer transaction validation for AML compliance.</li>
+              
+              <li>Developed the core wallet system and an AI-based authentication system.</li>
+              
+              <li>Built automated deployment pipelines and configuration management systems.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot "></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">Apr 2020 – May 2021</span>
+              
+            </div>
+            <h3 class="timeline-title">Backend Engineer</h3>
+            <p class="timeline-company">
+              
+              Shaya Smart Solutions
+              
+              <span class="timeline-location">· Tehran, Iran</span>
+            </p>
+            <ul class="timeline-bullets">
+              
+              <li>Developed a real-time trading core for the Iranian stock market (Agah Broker).</li>
+              
+              <li>Implemented an optimised pipeline to crawl and annotate Farsi multimedia and documents.</li>
+              
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Education -->
+      <h2 class="section-title reveal" style="margin-top: 5rem;">Education</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">Oct 2024 – Present</span>
+            </div>
+            <h3 class="timeline-title">PhD in Computer Science</h3>
+            <p class="timeline-company">University of Surrey <span class="timeline-location">· Guildford, UK</span></p>
+            
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">2019 – 2023</span>
+            </div>
+            <h3 class="timeline-title">M.Sc. in Computer Systems Networking &amp; Telecommunications</h3>
+            <p class="timeline-company">University of Isfahan <span class="timeline-location">· Isfahan, Iran</span></p>
+            <p class="timeline-detail">Thesis: Network Slicing Based Mobility Management in 5G Networks and Beyond: QoS Improvement Approach</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-period">2014 – 2018</span>
+            </div>
+            <h3 class="timeline-title">B.Sc. in Computer Engineering</h3>
+            <p class="timeline-company">Hamedan University of Technology <span class="timeline-location">· Hamedan, Iran</span></p>
+            <p class="timeline-detail">Thesis: Blockchain in Cloud Computing: Security Challenges</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PUBLICATIONS ──────────────────────────────────────────────── -->
+  <section id="publications" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title reveal">Selected Publications</h2>
+      <div class="pub-list">
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">01</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              A Comprehensive Study of Satellite Network Performance During 1.5 years of Solar Storm (May 2024–Oct 2025)
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ACM SIGMETRICS 2026</span>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">02</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              LEOScope: Building a Global Testbed for Low-Earth Orbit Satellite Networks
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ACM SIGCOMM CCR 2025</span>
+              <span class="pub-award">🏆 Best of CCR Award</span>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">03</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              Storms Above, Disruptions Below: Mapping The Impact of Extreme Solar Storms Across Orbital Regimes
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ACM SIGCOMM 2025</span>
+              
+              <span class="pub-note">Student Research Competition Nominee</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">04</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              Protecting Vulnerable Voices: Synthetic Dataset Generation for Self-Disclosure Detection
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ASONAM 2025</span>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">05</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              It&#39;s a bird? It&#39;s a plane? It&#39;s CDN!
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ACM HotNets 2024</span>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">06</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              Shrinking VOD Traffic via Rényi-Entropic Optimal Transport
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">ACM SIGMETRICS 2024</span>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="pub-item reveal">
+          <span class="pub-num">07</span>
+          <div class="pub-body">
+            <p class="pub-title">
+              Blockchain in Cloud Computing and Security Challenges
+            </p>
+            <div class="pub-meta">
+              <span class="pub-venue">CITCOMP03 2018</span>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Awards -->
+      <h2 class="section-title reveal" style="margin-top: 5rem;">Honors & Awards</h2>
+      <div class="awards-grid">
+        
+        <div class="award-card reveal">
+          <div class="award-icon">🏆</div>
+          <div class="award-body">
+            <h3>Best of CCR</h3>
+            <p class="award-event">ACM SIGCOMM 2025 · Sep 2025</p>
+            <p class="award-paper">LEOScope: Building a Global Testbed for Low-Earth Orbit Satellite Networks</p>
+          </div>
+        </div>
+        
+        <div class="award-card reveal">
+          <div class="award-icon">🎓</div>
+          <div class="award-body">
+            <h3>Student Research Competition (SRC) Nomination</h3>
+            <p class="award-event">ACM SIGCOMM 2025 · Sep 2025</p>
+            <p class="award-paper">Storms Above, Disruptions Below: Mapping the Impact of Extreme Solar Storms Across Orbital Regimes</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ───────────────────────────────────────────────────── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-wrap reveal">
+        <div class="contact-left">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-text">
+            I'm always happy to discuss research collaborations, satellite networking projects,
+            or new opportunities. Feel free to reach out!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:saeed.fadaei1996@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              saeed.fadaei1996@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/iamsaeedfadaei" target="_blank" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              linkedin.com/in/iamsaeedfadaei
+            </a>
+            <a href="https://github.com/nyxaeed" target="_blank" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              github.com/nyxaeed
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-card">
+            <p class="contact-card-label">Open to</p>
+            <ul class="contact-open">
+              <li>Research collaborations</li>
+              <li>Satellite network projects</li>
+              <li>PhD internship opportunities</li>
+              <li>Speaking &amp; invited talks</li>
+            </ul>
+            <a href="mailto:saeed.fadaei1996@gmail.com" class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">
+              Send a message →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2025 Saeed Fadaei · University of Surrey</p>
+        <div class="footer-links">
+          <a href="mailto:saeed.fadaei1996@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/iamsaeedfadaei" target="_blank">LinkedIn</a>
+          <a href="https://github.com/nyxaeed" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

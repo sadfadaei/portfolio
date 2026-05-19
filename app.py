@@ -63,7 +63,7 @@ EDUCATION = [
 
 SKILLS = [
     {
-        "category": "Languages",
+        "category": "Dev",
         "icon": "💻",
         "tools": ["Python", "JavaScript", "Bash", "SQL", "HTML/CSS", "Go", "C/C++"],
     },
@@ -83,15 +83,16 @@ SKILLS = [
         "tools": ["Docker", "Kubernetes", "Ansible", "Kafka", "Redis", "Git"],
     },
     {
+        "category": "Monitoring",
+        "icon": "📊",
+        "tools": ["Prometheus", "Grafana", "Sentry","Elasticsearch", "Logstash", "Kibana"],
+    },
+    {
         "category": "Databases",
         "icon": "🗄️",
         "tools": ["PostgreSQL", "MySQL", "MongoDB"],
     },
-    # {
-    #     "category": "Research Tools",
-    #     "icon": "📡",
-    #     "tools": ["Wireshark", "iperf3", "Scapy", "LaTeX", "NetworkX", "Tailscale"],
-    # },
+
 ]
 
 EXPERIENCE = [
